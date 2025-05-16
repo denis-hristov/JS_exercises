@@ -1,0 +1,53 @@
+.sortable-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sortable-table thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.sortable-table th,
+.sortable-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+.sortable-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sortable-table tbody tr:hover {
+  background-color: #eef5ff;
+  cursor: pointer;
+}
+
+.sortable-table th {
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.sortable-table th::after {
+  content: ' ⇅';
+  font-size: 0.8em;
+  opacity: 0.5;
+  position: absolute;
+  right: 10px;
+}
+
+.sortable-table th.sorted-asc::after {
+  content: ' ↑';
+  opacity: 1;
+}
+
+.sortable-table th.sorted-desc::after {
+  content: ' ↓';
+  opacity: 1;
+}

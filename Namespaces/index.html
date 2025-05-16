@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="code-snippets-container"></div>
+  <div id="components-container"></div>
+
+  <script src="js/codeSnippetsTable.js"></script>
+  <script src="js/componentsTable.js"></script>
+  
+  <script>
+    fetch('data/Code Snippets.json')
+      .then(res => res.json())
+      .then(data => CodeSnippets.init(data));
+
+    fetch('data/Builder Components.json')
+      .then(res => res.json())
+      .then(data => Components.init(data));
+  </script>
+</body>
+
+</body>
+</html>

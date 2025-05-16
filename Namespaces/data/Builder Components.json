@@ -1,0 +1,2271 @@
+{
+    "manifest": {
+         "projectionObjectName": "DataProjection6",
+         "SQLQuery": "",
+         "selectOptions": {
+              "distinct": false
+         },
+         "data": true,
+         "schema": true,
+         "baseEntity": "BuilderComponents",
+         "baseEntityUUID": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+         "baseEntityObjectName": "BuilderComponents",
+         "isContextSet": false,
+         "isSelectedRecordsSet": false,
+         "contextFilter": [],
+         "haveVirtualField": true,
+         "virtualFieldObjectName": "BuilderComponents.BuilderComponent"
+    },
+    "schema": {
+         "DataProjection6": {
+              "interfaces": {
+                   "RecordEssentials": [
+                        {
+                             "field": "Name",
+                             "dataType": "Text"
+                        },
+                        {
+                             "field": "ID",
+                             "dataType": "Text"
+                        }
+                   ],
+                   "InterfaceCDNConformingRecords": [
+                        {
+                             "field": "Name",
+                             "dataType": "Text"
+                        }
+                   ]
+              },
+              "type": "Entity",
+              "fields": [
+                   {
+                        "objectName": "BuilderComponents.BuilderComponent",
+                        "dataType": "Relationship",
+                        "heading": "BuilderComponent",
+                        "headingTranslated": "BuilderComponent",
+                        "properties": {
+                             "Cardinality": "N:1",
+                             "Multiplexity": false,
+                             "IsMultiEntity": false,
+                             "isVirtual": true,
+                             "Relationships": [
+                                  {
+                                       "entityObjectName": "BuilderComponents",
+                                       "relationshipObjectName": "BuilderComponents",
+                                       "implementedInterfaces": [
+                                            {
+                                                 "interface": "RecordEssentials",
+                                                 "implementedFields": [
+                                                      "Name",
+                                                      "ID"
+                                                 ]
+                                            },
+                                            {
+                                                 "interface": "InterfaceCDNConformingRecords",
+                                                 "implementedFields": [
+                                                      "Name"
+                                                 ]
+                                            }
+                                       ]
+                                  }
+                             ],
+                             "entity": {
+                                  "objectName": "BuilderComponents"
+                             }
+                        },
+                        "headingGlobalized": "BuilderComponent"
+                   },
+                   {
+                        "objectName": "BuilderComponents.Name",
+                        "dataType": "Text",
+                        "heading": "Name",
+                        "headingTranslated": "Name",
+                        "required": true,
+                        "properties": {
+                             "length": 200,
+                             "InterfaceMap": {
+                                  "RecordEssentials": [
+                                       {
+                                            "field": "Name"
+                                       }
+                                  ],
+                                  "InterfaceCDNConformingRecords": [
+                                       {
+                                            "field": "Name"
+                                       }
+                                  ]
+                             },
+                             "entity": {
+                                  "objectName": "BuilderComponents"
+                             },
+                             "originalObjectName": "Name"
+                        }
+                   },
+                   {
+                        "objectName": "BuilderComponents.ObjectName",
+                        "dataType": "Text",
+                        "heading": "Object Name",
+                        "headingTranslated": "Object Name",
+                        "required": true,
+                        "properties": {
+                             "length": 62,
+                             "InterfaceMap": {
+                                  "RecordEssentials": [
+                                       {
+                                            "field": "ID"
+                                       }
+                                  ]
+                             },
+                             "entity": {
+                                  "objectName": "BuilderComponents"
+                             },
+                             "originalObjectName": "ObjectName"
+                        }
+                   }
+              ]
+         }
+    },
+    "data": {
+         "DataProjection6": [
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "179e75d5-ffb7-4780-857f-05cda9fb6c87",
+                   "uniqueRowUUID": "179e75d5-ffb7-4780-857f-05cda9fb6c87",
+                   "versionUuid": "dc4e8074-158a-4a29-91ba-025cad3c2350",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "dc4e8074-158a-4a29-91ba-025cad3c2350",
+                                  "uuid": "179e75d5-ffb7-4780-857f-05cda9fb6c87",
+                                  "name": "Velocity - Navigation",
+                                  "id": "VelocityNavigation",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Navigation",
+                                            "ID": "VelocityNavigation"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Navigation"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Navigation",
+                        "BuilderComponents.ObjectName": "VelocityNavigation"
+                   },
+                   "rowIndex": 1
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "d49f0528-f548-49da-bd55-06b5eea14002",
+                   "uniqueRowUUID": "d49f0528-f548-49da-bd55-06b5eea14002",
+                   "versionUuid": "8e75333d-9425-4ace-abd5-ebda1f2a4d3f",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "8e75333d-9425-4ace-abd5-ebda1f2a4d3f",
+                                  "uuid": "d49f0528-f548-49da-bd55-06b5eea14002",
+                                  "name": "Velocity - Selector",
+                                  "id": "VelocitySelector",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Selector",
+                                            "ID": "VelocitySelector"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Selector"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Selector",
+                        "BuilderComponents.ObjectName": "VelocitySelector"
+                   },
+                   "rowIndex": 2
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "f67feb3e-94fd-427e-a25e-0ded09a1fe86",
+                   "uniqueRowUUID": "f67feb3e-94fd-427e-a25e-0ded09a1fe86",
+                   "versionUuid": "fb7df4ed-0528-4439-aad3-fe2c44fac8f3",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "fb7df4ed-0528-4439-aad3-fe2c44fac8f3",
+                                  "uuid": "f67feb3e-94fd-427e-a25e-0ded09a1fe86",
+                                  "name": "Velocity - Activity View",
+                                  "id": "VelocityActivityView",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Activity View",
+                                            "ID": "VelocityActivityView"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Activity View"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Activity View",
+                        "BuilderComponents.ObjectName": "VelocityActivityView"
+                   },
+                   "rowIndex": 3
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "abfdadd2-8ad1-44f2-bd83-102ff4625f17",
+                   "uniqueRowUUID": "abfdadd2-8ad1-44f2-bd83-102ff4625f17",
+                   "versionUuid": "8c07c5b2-2865-4e99-ac38-f7dd56a9a9d5",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "8c07c5b2-2865-4e99-ac38-f7dd56a9a9d5",
+                                  "uuid": "abfdadd2-8ad1-44f2-bd83-102ff4625f17",
+                                  "name": "Velocity - Graph",
+                                  "id": "VelocityGraph",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Graph",
+                                            "ID": "VelocityGraph"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Graph"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Graph",
+                        "BuilderComponents.ObjectName": "VelocityGraph"
+                   },
+                   "rowIndex": 4
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "e383576e-8eda-4711-a29c-1085d4615da3",
+                   "uniqueRowUUID": "e383576e-8eda-4711-a29c-1085d4615da3",
+                   "versionUuid": "cb8859f3-5027-438c-a382-f8c4c9288273",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "cb8859f3-5027-438c-a382-f8c4c9288273",
+                                  "uuid": "e383576e-8eda-4711-a29c-1085d4615da3",
+                                  "name": "Velocity - Basic Grid",
+                                  "id": "VelocityBasicGrid",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Basic Grid",
+                                            "ID": "VelocityBasicGrid"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Basic Grid"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Basic Grid",
+                        "BuilderComponents.ObjectName": "VelocityBasicGrid"
+                   },
+                   "rowIndex": 5
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "a0b97535-5134-459b-94e0-11dc8683c3e6",
+                   "uniqueRowUUID": "a0b97535-5134-459b-94e0-11dc8683c3e6",
+                   "versionUuid": "aae509bc-8bd1-4c2e-885a-5065bb0a33d5",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "aae509bc-8bd1-4c2e-885a-5065bb0a33d5",
+                                  "uuid": "a0b97535-5134-459b-94e0-11dc8683c3e6",
+                                  "name": "Velocity - Iframe",
+                                  "id": "VelocityIframe",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Iframe",
+                                            "ID": "VelocityIframe"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Iframe"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Iframe",
+                        "BuilderComponents.ObjectName": "VelocityIframe"
+                   },
+                   "rowIndex": 6
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "bff0dfa8-aad9-449a-9de5-13df81750a3a",
+                   "uniqueRowUUID": "bff0dfa8-aad9-449a-9de5-13df81750a3a",
+                   "versionUuid": "66c8aa6a-2bf5-473e-b5fc-514264806648",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "66c8aa6a-2bf5-473e-b5fc-514264806648",
+                                  "uuid": "bff0dfa8-aad9-449a-9de5-13df81750a3a",
+                                  "name": "Velocity - Process Map",
+                                  "id": "VelocityProcessMap",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Process Map",
+                                            "ID": "VelocityProcessMap"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Process Map"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Process Map",
+                        "BuilderComponents.ObjectName": "VelocityProcessMap"
+                   },
+                   "rowIndex": 7
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "ddfc252a-43ee-40cf-bbd3-1b60ea621977",
+                   "uniqueRowUUID": "ddfc252a-43ee-40cf-bbd3-1b60ea621977",
+                   "versionUuid": "358c561d-c84b-490b-bf58-e7225e8192d3",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "358c561d-c84b-490b-bf58-e7225e8192d3",
+                                  "uuid": "ddfc252a-43ee-40cf-bbd3-1b60ea621977",
+                                  "name": "Highcharts - Gauge",
+                                  "id": "HighchartsGauge",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Gauge",
+                                            "ID": "HighchartsGauge"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Gauge"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Gauge",
+                        "BuilderComponents.ObjectName": "HighchartsGauge"
+                   },
+                   "rowIndex": 8
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "faf3f6da-ffda-4eb8-8e06-20e4d0dd5e21",
+                   "uniqueRowUUID": "faf3f6da-ffda-4eb8-8e06-20e4d0dd5e21",
+                   "versionUuid": "52096ddf-ea8e-4aee-bbfa-01dd8ca85e82",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "52096ddf-ea8e-4aee-bbfa-01dd8ca85e82",
+                                  "uuid": "faf3f6da-ffda-4eb8-8e06-20e4d0dd5e21",
+                                  "name": "Velocity - Tree View",
+                                  "id": "VelocityTreeView",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Tree View",
+                                            "ID": "VelocityTreeView"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Tree View"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Tree View",
+                        "BuilderComponents.ObjectName": "VelocityTreeView"
+                   },
+                   "rowIndex": 9
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "22df9599-16d7-4d0b-b61b-2198d4d94579",
+                   "uniqueRowUUID": "22df9599-16d7-4d0b-b61b-2198d4d94579",
+                   "versionUuid": "524221c2-2272-4bbc-beac-8da644cffb3e",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "524221c2-2272-4bbc-beac-8da644cffb3e",
+                                  "uuid": "22df9599-16d7-4d0b-b61b-2198d4d94579",
+                                  "name": "Velocity - Data Projection",
+                                  "id": "VelocityDataProjection",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Data Projection",
+                                            "ID": "VelocityDataProjection"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Data Projection"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Data Projection",
+                        "BuilderComponents.ObjectName": "VelocityDataProjection"
+                   },
+                   "rowIndex": 10
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "999149f0-9790-4a3d-aad3-28f014084c41",
+                   "uniqueRowUUID": "999149f0-9790-4a3d-aad3-28f014084c41",
+                   "versionUuid": "348b451b-e8ba-44eb-8dc2-aaaa03135478",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "348b451b-e8ba-44eb-8dc2-aaaa03135478",
+                                  "uuid": "999149f0-9790-4a3d-aad3-28f014084c41",
+                                  "name": "Velocity - Property Setter",
+                                  "id": "VelocityPropertySetter",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Property Setter",
+                                            "ID": "VelocityPropertySetter"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Property Setter"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Property Setter",
+                        "BuilderComponents.ObjectName": "VelocityPropertySetter"
+                   },
+                   "rowIndex": 11
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "9ac2df6d-3984-415a-9412-2bd4905cbf7e",
+                   "uniqueRowUUID": "9ac2df6d-3984-415a-9412-2bd4905cbf7e",
+                   "versionUuid": "f954c405-0c61-4fb6-b100-ba176d49ce1b",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "f954c405-0c61-4fb6-b100-ba176d49ce1b",
+                                  "uuid": "9ac2df6d-3984-415a-9412-2bd4905cbf7e",
+                                  "name": "Velocity - Layout (Legacy)",
+                                  "id": "VelocityLayoutLegacy",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Layout (Legacy)",
+                                            "ID": "VelocityLayoutLegacy"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Layout (Legacy)"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Layout (Legacy)",
+                        "BuilderComponents.ObjectName": "VelocityLayoutLegacy"
+                   },
+                   "rowIndex": 12
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "9fb6c020-cd44-458a-aa05-311682b15a1f",
+                   "uniqueRowUUID": "9fb6c020-cd44-458a-aa05-311682b15a1f",
+                   "versionUuid": "ebfb2e30-b27c-4aa7-8ef9-6a7715f39040",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "ebfb2e30-b27c-4aa7-8ef9-6a7715f39040",
+                                  "uuid": "9fb6c020-cd44-458a-aa05-311682b15a1f",
+                                  "name": "Research Metrics - Filter Prototype",
+                                  "id": "ResearchMetricsFilterPrototype",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - Filter Prototype",
+                                            "ID": "ResearchMetricsFilterPrototype"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - Filter Prototype"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - Filter Prototype",
+                        "BuilderComponents.ObjectName": "ResearchMetricsFilterPrototype"
+                   },
+                   "rowIndex": 13
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "d26a1e8b-6212-4126-8704-311d0ef5af6e",
+                   "uniqueRowUUID": "d26a1e8b-6212-4126-8704-311d0ef5af6e",
+                   "versionUuid": "fd3da1c8-841c-4e04-89e5-e9f72d556f53",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "fd3da1c8-841c-4e04-89e5-e9f72d556f53",
+                                  "uuid": "d26a1e8b-6212-4126-8704-311d0ef5af6e",
+                                  "name": "Velocity - Input Form (Legacy)",
+                                  "id": "VelocityInputFormLegacy",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Input Form (Legacy)",
+                                            "ID": "VelocityInputFormLegacy"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Input Form (Legacy)"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Input Form (Legacy)",
+                        "BuilderComponents.ObjectName": "VelocityInputFormLegacy"
+                   },
+                   "rowIndex": 14
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "0ed75ac5-97ac-4170-ad13-319457e6f7f6",
+                   "uniqueRowUUID": "0ed75ac5-97ac-4170-ad13-319457e6f7f6",
+                   "versionUuid": "93ea18da-044b-4a28-bb2b-d43ee1e5bd66",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "93ea18da-044b-4a28-bb2b-d43ee1e5bd66",
+                                  "uuid": "0ed75ac5-97ac-4170-ad13-319457e6f7f6",
+                                  "name": "Velocity - Builder Toolbox",
+                                  "id": "VelocityBuilderToolbox",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Builder Toolbox",
+                                            "ID": "VelocityBuilderToolbox"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Builder Toolbox"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Builder Toolbox",
+                        "BuilderComponents.ObjectName": "VelocityBuilderToolbox"
+                   },
+                   "rowIndex": 15
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "3379b767-8a2b-4992-8f37-38a2ea8973c9",
+                   "uniqueRowUUID": "3379b767-8a2b-4992-8f37-38a2ea8973c9",
+                   "versionUuid": "1d5ec39a-c6bc-44bd-bea4-ff96657c9a65",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "1d5ec39a-c6bc-44bd-bea4-ff96657c9a65",
+                                  "uuid": "3379b767-8a2b-4992-8f37-38a2ea8973c9",
+                                  "name": "Velocity - Builder Document Preview",
+                                  "id": "VelocityBuilderDocumentPreview",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Builder Document Preview",
+                                            "ID": "VelocityBuilderDocumentPreview"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Builder Document Preview"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Builder Document Preview",
+                        "BuilderComponents.ObjectName": "VelocityBuilderDocumentPreview"
+                   },
+                   "rowIndex": 16
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "23c8c80e-2ffd-4853-b50e-3c7619bb6a18",
+                   "uniqueRowUUID": "23c8c80e-2ffd-4853-b50e-3c7619bb6a18",
+                   "versionUuid": "e414332b-2c53-483e-8ecd-30761f1d15df",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "e414332b-2c53-483e-8ecd-30761f1d15df",
+                                  "uuid": "23c8c80e-2ffd-4853-b50e-3c7619bb6a18",
+                                  "name": "Velocity - Input Form",
+                                  "id": "VelocityInputForm",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Input Form",
+                                            "ID": "VelocityInputForm"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Input Form"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Input Form",
+                        "BuilderComponents.ObjectName": "VelocityInputForm"
+                   },
+                   "rowIndex": 17
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "36f448fa-2adc-4ad4-b082-3ca4635987c0",
+                   "uniqueRowUUID": "36f448fa-2adc-4ad4-b082-3ca4635987c0",
+                   "versionUuid": "e47e2767-5e7d-44c9-8d79-639366728bcf",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "e47e2767-5e7d-44c9-8d79-639366728bcf",
+                                  "uuid": "36f448fa-2adc-4ad4-b082-3ca4635987c0",
+                                  "name": "Highcharts - Universal",
+                                  "id": "HighchartsUniversal",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Universal",
+                                            "ID": "HighchartsUniversal"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Universal"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Universal",
+                        "BuilderComponents.ObjectName": "HighchartsUniversal"
+                   },
+                   "rowIndex": 18
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "6760db9e-f64b-473f-b458-3d0eed6bfda7",
+                   "uniqueRowUUID": "6760db9e-f64b-473f-b458-3d0eed6bfda7",
+                   "versionUuid": "46942669-39b8-4912-bec5-966e9c2353d9",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "46942669-39b8-4912-bec5-966e9c2353d9",
+                                  "uuid": "6760db9e-f64b-473f-b458-3d0eed6bfda7",
+                                  "name": "Highcharts - Bar/Column",
+                                  "id": "HighchartsBarColumn",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Bar/Column",
+                                            "ID": "HighchartsBarColumn"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Bar/Column"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Bar/Column",
+                        "BuilderComponents.ObjectName": "HighchartsBarColumn"
+                   },
+                   "rowIndex": 19
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "d9582cd6-6f45-4d3c-afdd-4be860ececa9",
+                   "uniqueRowUUID": "d9582cd6-6f45-4d3c-afdd-4be860ececa9",
+                   "versionUuid": "5985e725-5bf5-4ecf-9ec0-9c72ec4b96ea",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "5985e725-5bf5-4ecf-9ec0-9c72ec4b96ea",
+                                  "uuid": "d9582cd6-6f45-4d3c-afdd-4be860ececa9",
+                                  "name": "Research Metrics - Update Record",
+                                  "id": "ResearchMetricsUpdateRecord",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - Update Record",
+                                            "ID": "ResearchMetricsUpdateRecord"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - Update Record"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - Update Record",
+                        "BuilderComponents.ObjectName": "ResearchMetricsUpdateRecord"
+                   },
+                   "rowIndex": 20
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "89e70918-6d4d-4cc6-b729-507c285c1649",
+                   "uniqueRowUUID": "89e70918-6d4d-4cc6-b729-507c285c1649",
+                   "versionUuid": "ce1c5b08-7d71-4b2e-be09-993d8e48c5a1",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "ce1c5b08-7d71-4b2e-be09-993d8e48c5a1",
+                                  "uuid": "89e70918-6d4d-4cc6-b729-507c285c1649",
+                                  "name": "Velocity - Basic Layout Column",
+                                  "id": "VelocityBasicLayoutColumn",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Basic Layout Column",
+                                            "ID": "VelocityBasicLayoutColumn"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Basic Layout Column"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Basic Layout Column",
+                        "BuilderComponents.ObjectName": "VelocityBasicLayoutColumn"
+                   },
+                   "rowIndex": 21
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "3dd2f2e1-f5be-4376-b534-544ae5e4613a",
+                   "uniqueRowUUID": "3dd2f2e1-f5be-4376-b534-544ae5e4613a",
+                   "versionUuid": "52fc5a0f-2b8f-41c9-b0c9-544ff2c38f8a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "52fc5a0f-2b8f-41c9-b0c9-544ff2c38f8a",
+                                  "uuid": "3dd2f2e1-f5be-4376-b534-544ae5e4613a",
+                                  "name": "Velocity - For Each",
+                                  "id": "VelocityForEach",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - For Each",
+                                            "ID": "VelocityForEach"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - For Each"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - For Each",
+                        "BuilderComponents.ObjectName": "VelocityForEach"
+                   },
+                   "rowIndex": 22
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "f0eecf71-b475-4c7e-a533-5595a7d8e3b5",
+                   "uniqueRowUUID": "f0eecf71-b475-4c7e-a533-5595a7d8e3b5",
+                   "versionUuid": "94d1b708-7e86-4174-a539-7bb6ac79117a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "94d1b708-7e86-4174-a539-7bb6ac79117a",
+                                  "uuid": "f0eecf71-b475-4c7e-a533-5595a7d8e3b5",
+                                  "name": "Velocity - Data Query",
+                                  "id": "VelocityDataQuery",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Data Query",
+                                            "ID": "VelocityDataQuery"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Data Query"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Data Query",
+                        "BuilderComponents.ObjectName": "VelocityDataQuery"
+                   },
+                   "rowIndex": 23
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "035cbd19-b037-46ab-8f5f-5e2739f84df9",
+                   "uniqueRowUUID": "035cbd19-b037-46ab-8f5f-5e2739f84df9",
+                   "versionUuid": "962586ec-6433-4442-8412-e5569e6e61e2",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "962586ec-6433-4442-8412-e5569e6e61e2",
+                                  "uuid": "035cbd19-b037-46ab-8f5f-5e2739f84df9",
+                                  "name": "Velocity - Loop",
+                                  "id": "VelocityLoop",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Loop",
+                                            "ID": "VelocityLoop"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Loop"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Loop",
+                        "BuilderComponents.ObjectName": "VelocityLoop"
+                   },
+                   "rowIndex": 24
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "dbc5df87-879f-4665-a733-63b4ef510025",
+                   "uniqueRowUUID": "dbc5df87-879f-4665-a733-63b4ef510025",
+                   "versionUuid": "31dd3fd2-e2ea-44f2-9b5b-756851b69798",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "31dd3fd2-e2ea-44f2-9b5b-756851b69798",
+                                  "uuid": "dbc5df87-879f-4665-a733-63b4ef510025",
+                                  "name": "Velocity - App Switcher",
+                                  "id": "VelocityAppSwitcher",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - App Switcher",
+                                            "ID": "VelocityAppSwitcher"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - App Switcher"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - App Switcher",
+                        "BuilderComponents.ObjectName": "VelocityAppSwitcher"
+                   },
+                   "rowIndex": 25
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "873ce46a-eb3c-40d8-8b72-63eca9719490",
+                   "uniqueRowUUID": "873ce46a-eb3c-40d8-8b72-63eca9719490",
+                   "versionUuid": "058aa2ce-4166-4703-b5d5-a9effdbdc88c",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "058aa2ce-4166-4703-b5d5-a9effdbdc88c",
+                                  "uuid": "873ce46a-eb3c-40d8-8b72-63eca9719490",
+                                  "name": "Velocity - Froala Editor",
+                                  "id": "VelocityFroalaEditor",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Froala Editor",
+                                            "ID": "VelocityFroalaEditor"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Froala Editor"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Froala Editor",
+                        "BuilderComponents.ObjectName": "VelocityFroalaEditor"
+                   },
+                   "rowIndex": 26
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "59c619ab-35f2-4924-973d-6ac55ca58401",
+                   "uniqueRowUUID": "59c619ab-35f2-4924-973d-6ac55ca58401",
+                   "versionUuid": "72747e1a-aec1-4b7c-95e8-287bc0837639",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "72747e1a-aec1-4b7c-95e8-287bc0837639",
+                                  "uuid": "59c619ab-35f2-4924-973d-6ac55ca58401",
+                                  "name": "Velocity - Header",
+                                  "id": "VelocityHeader",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Header",
+                                            "ID": "VelocityHeader"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Header"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Header",
+                        "BuilderComponents.ObjectName": "VelocityHeader"
+                   },
+                   "rowIndex": 27
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "55fd55b2-087b-434c-a025-6f4cd0c5261a",
+                   "uniqueRowUUID": "55fd55b2-087b-434c-a025-6f4cd0c5261a",
+                   "versionUuid": "1e8afebc-9d07-46ec-965c-183ce79ef91f",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "1e8afebc-9d07-46ec-965c-183ce79ef91f",
+                                  "uuid": "55fd55b2-087b-434c-a025-6f4cd0c5261a",
+                                  "name": "Velocity - Case",
+                                  "id": "VelocityCase",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Case",
+                                            "ID": "VelocityCase"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Case"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Case",
+                        "BuilderComponents.ObjectName": "VelocityCase"
+                   },
+                   "rowIndex": 28
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "a2690a37-2314-47b1-b6ca-720c0bb9a91f",
+                   "uniqueRowUUID": "a2690a37-2314-47b1-b6ca-720c0bb9a91f",
+                   "versionUuid": "d7d5b0c1-05e5-4f2c-a79d-c3fb3b5a2419",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "d7d5b0c1-05e5-4f2c-a79d-c3fb3b5a2419",
+                                  "uuid": "a2690a37-2314-47b1-b6ca-720c0bb9a91f",
+                                  "name": "Research Metrics - Dataset Loader",
+                                  "id": "ResearchMetricsDatasetLoader",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - Dataset Loader",
+                                            "ID": "ResearchMetricsDatasetLoader"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - Dataset Loader"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - Dataset Loader",
+                        "BuilderComponents.ObjectName": "ResearchMetricsDatasetLoader"
+                   },
+                   "rowIndex": 29
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "4121f060-ffd8-43c5-809d-73443c4f1401",
+                   "uniqueRowUUID": "4121f060-ffd8-43c5-809d-73443c4f1401",
+                   "versionUuid": "662c4715-23eb-4320-9457-0405483d2a98",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "662c4715-23eb-4320-9457-0405483d2a98",
+                                  "uuid": "4121f060-ffd8-43c5-809d-73443c4f1401",
+                                  "name": "Highcharts - Line",
+                                  "id": "HighchartsLine",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Line",
+                                            "ID": "HighchartsLine"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Line"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Line",
+                        "BuilderComponents.ObjectName": "HighchartsLine"
+                   },
+                   "rowIndex": 30
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "c49667bc-e660-4774-a9a9-74d62ea119c5",
+                   "uniqueRowUUID": "c49667bc-e660-4774-a9a9-74d62ea119c5",
+                   "versionUuid": "aac1d0ba-2cb1-488f-b8d8-82a143ff8729",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "aac1d0ba-2cb1-488f-b8d8-82a143ff8729",
+                                  "uuid": "c49667bc-e660-4774-a9a9-74d62ea119c5",
+                                  "name": "Velocity - Workflow",
+                                  "id": "VelocityWorkflow",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Workflow",
+                                            "ID": "VelocityWorkflow"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Workflow"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Workflow",
+                        "BuilderComponents.ObjectName": "VelocityWorkflow"
+                   },
+                   "rowIndex": 31
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "2b53e25d-7dca-44c5-bf71-751e5724774f",
+                   "uniqueRowUUID": "2b53e25d-7dca-44c5-bf71-751e5724774f",
+                   "versionUuid": "4ad753c3-cdfa-462e-b634-78cb1e0c317b",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "4ad753c3-cdfa-462e-b634-78cb1e0c317b",
+                                  "uuid": "2b53e25d-7dca-44c5-bf71-751e5724774f",
+                                  "name": "Highcharts - Pie/Donut",
+                                  "id": "HighchartsPieDonut",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Pie/Donut",
+                                            "ID": "HighchartsPieDonut"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Pie/Donut"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Pie/Donut",
+                        "BuilderComponents.ObjectName": "HighchartsPieDonut"
+                   },
+                   "rowIndex": 32
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "30fb852a-a096-4fbe-9a85-80a0b69115ab",
+                   "uniqueRowUUID": "30fb852a-a096-4fbe-9a85-80a0b69115ab",
+                   "versionUuid": "89eda2fa-f8aa-4a82-903a-3192968a58f8",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "89eda2fa-f8aa-4a82-903a-3192968a58f8",
+                                  "uuid": "30fb852a-a096-4fbe-9a85-80a0b69115ab",
+                                  "name": "Research Metrics - Create Record",
+                                  "id": "ResearchMetricsCreateRecord",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - Create Record",
+                                            "ID": "ResearchMetricsCreateRecord"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - Create Record"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - Create Record",
+                        "BuilderComponents.ObjectName": "ResearchMetricsCreateRecord"
+                   },
+                   "rowIndex": 33
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "e6caa7fd-a173-49d3-a6f3-85853e6850a1",
+                   "uniqueRowUUID": "e6caa7fd-a173-49d3-a6f3-85853e6850a1",
+                   "versionUuid": "39b1d888-2a5d-43d5-bea4-83e27ea853a9",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "39b1d888-2a5d-43d5-bea4-83e27ea853a9",
+                                  "uuid": "e6caa7fd-a173-49d3-a6f3-85853e6850a1",
+                                  "name": "Velocity - Layout Container (Legacy)",
+                                  "id": "VelocityLayoutContainerLegacy",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Layout Container (Legacy)",
+                                            "ID": "VelocityLayoutContainerLegacy"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Layout Container (Legacy)"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Layout Container (Legacy)",
+                        "BuilderComponents.ObjectName": "VelocityLayoutContainerLegacy"
+                   },
+                   "rowIndex": 34
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "00116ebd-2ed2-4747-a31e-8885b0fa7b2e",
+                   "uniqueRowUUID": "00116ebd-2ed2-4747-a31e-8885b0fa7b2e",
+                   "versionUuid": "4c7aef3c-9235-42f6-8615-6c45f2230ca6",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "4c7aef3c-9235-42f6-8615-6c45f2230ca6",
+                                  "uuid": "00116ebd-2ed2-4747-a31e-8885b0fa7b2e",
+                                  "name": "Highcharts - Funnel",
+                                  "id": "HighchartsFunnel",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Highcharts - Funnel",
+                                            "ID": "HighchartsFunnel"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Highcharts - Funnel"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Highcharts - Funnel",
+                        "BuilderComponents.ObjectName": "HighchartsFunnel"
+                   },
+                   "rowIndex": 35
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "b9a7d15e-608b-4a99-baa6-8e18a0314bec",
+                   "uniqueRowUUID": "b9a7d15e-608b-4a99-baa6-8e18a0314bec",
+                   "versionUuid": "14c1ed97-748b-4050-a25b-92b059cc1360",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "14c1ed97-748b-4050-a25b-92b059cc1360",
+                                  "uuid": "b9a7d15e-608b-4a99-baa6-8e18a0314bec",
+                                  "name": "Velocity - Repeater",
+                                  "id": "VelocityRepeater",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Repeater",
+                                            "ID": "VelocityRepeater"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Repeater"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Repeater",
+                        "BuilderComponents.ObjectName": "VelocityRepeater"
+                   },
+                   "rowIndex": 36
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "608f2620-3935-4d08-b09a-8f125c9c5eac",
+                   "uniqueRowUUID": "608f2620-3935-4d08-b09a-8f125c9c5eac",
+                   "versionUuid": "353afddd-2bfc-4d98-8af6-41e3866f0a14",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "353afddd-2bfc-4d98-8af6-41e3866f0a14",
+                                  "uuid": "608f2620-3935-4d08-b09a-8f125c9c5eac",
+                                  "name": "Velocity - Tab",
+                                  "id": "VelocityTab",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Tab",
+                                            "ID": "VelocityTab"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Tab"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Tab",
+                        "BuilderComponents.ObjectName": "VelocityTab"
+                   },
+                   "rowIndex": 37
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "68d10ff1-990d-4efb-868e-a5d035ee35f8",
+                   "uniqueRowUUID": "68d10ff1-990d-4efb-868e-a5d035ee35f8",
+                   "versionUuid": "bbcdc8a8-b514-4831-888e-d6b73bd06888",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "bbcdc8a8-b514-4831-888e-d6b73bd06888",
+                                  "uuid": "68d10ff1-990d-4efb-868e-a5d035ee35f8",
+                                  "name": "Velocity - Filter",
+                                  "id": "VelocityFilter",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Filter",
+                                            "ID": "VelocityFilter"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Filter"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Filter",
+                        "BuilderComponents.ObjectName": "VelocityFilter"
+                   },
+                   "rowIndex": 38
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "7b072001-4405-4115-8dc8-b2d784bc120f",
+                   "uniqueRowUUID": "7b072001-4405-4115-8dc8-b2d784bc120f",
+                   "versionUuid": "6bac4d77-8af1-43a8-bc51-48036998ff16",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "6bac4d77-8af1-43a8-bc51-48036998ff16",
+                                  "uuid": "7b072001-4405-4115-8dc8-b2d784bc120f",
+                                  "name": "Velocity - Button",
+                                  "id": "VelocityButton",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Button",
+                                            "ID": "VelocityButton"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Button"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Button",
+                        "BuilderComponents.ObjectName": "VelocityButton"
+                   },
+                   "rowIndex": 39
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "807aeebf-2f81-424d-bec9-b9f906273e54",
+                   "uniqueRowUUID": "807aeebf-2f81-424d-bec9-b9f906273e54",
+                   "versionUuid": "73e0e81b-f92b-4a4d-b653-08319042b232",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "73e0e81b-f92b-4a4d-b653-08319042b232",
+                                  "uuid": "807aeebf-2f81-424d-bec9-b9f906273e54",
+                                  "name": "Velocity - Embed",
+                                  "id": "VelocityEmbed",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Embed",
+                                            "ID": "VelocityEmbed"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Embed"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Embed",
+                        "BuilderComponents.ObjectName": "VelocityEmbed"
+                   },
+                   "rowIndex": 40
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "ccdb89bd-0952-48ff-aabc-bbb6a58edf8b",
+                   "uniqueRowUUID": "ccdb89bd-0952-48ff-aabc-bbb6a58edf8b",
+                   "versionUuid": "425a9dcf-6304-47cb-9c31-52263dabdf2a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "425a9dcf-6304-47cb-9c31-52263dabdf2a",
+                                  "uuid": "ccdb89bd-0952-48ff-aabc-bbb6a58edf8b",
+                                  "name": "Velocity - Update Record",
+                                  "id": "VelocityUpdateRecord",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Update Record",
+                                            "ID": "VelocityUpdateRecord"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Update Record"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Update Record",
+                        "BuilderComponents.ObjectName": "VelocityUpdateRecord"
+                   },
+                   "rowIndex": 41
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "bd1631d0-892c-4b70-8b97-bc997db012a3",
+                   "uniqueRowUUID": "bd1631d0-892c-4b70-8b97-bc997db012a3",
+                   "versionUuid": "a6017108-3cb8-4d92-8aba-b7905b146168",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "a6017108-3cb8-4d92-8aba-b7905b146168",
+                                  "uuid": "bd1631d0-892c-4b70-8b97-bc997db012a3",
+                                  "name": "Velocity - Call API",
+                                  "id": "VelocityCallAPI",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Call API",
+                                            "ID": "VelocityCallAPI"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Call API"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Call API",
+                        "BuilderComponents.ObjectName": "VelocityCallAPI"
+                   },
+                   "rowIndex": 42
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "cf45fe4c-7670-4140-bcc0-bcbbf0db1671",
+                   "uniqueRowUUID": "cf45fe4c-7670-4140-bcc0-bcbbf0db1671",
+                   "versionUuid": "67563c77-3f31-4c92-aad1-36998de29d42",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "67563c77-3f31-4c92-aad1-36998de29d42",
+                                  "uuid": "cf45fe4c-7670-4140-bcc0-bcbbf0db1671",
+                                  "name": "Velocity - Command Bar",
+                                  "id": "VelocityCommandBar",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Command Bar",
+                                            "ID": "VelocityCommandBar"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Command Bar"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Command Bar",
+                        "BuilderComponents.ObjectName": "VelocityCommandBar"
+                   },
+                   "rowIndex": 43
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "0e5470a6-5aba-4c68-9fc7-c418942db7c5",
+                   "uniqueRowUUID": "0e5470a6-5aba-4c68-9fc7-c418942db7c5",
+                   "versionUuid": "a319f887-728d-4e74-81ed-dae1b39dfa27",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "a319f887-728d-4e74-81ed-dae1b39dfa27",
+                                  "uuid": "0e5470a6-5aba-4c68-9fc7-c418942db7c5",
+                                  "name": "Velocity - Builder Property Grid",
+                                  "id": "VelocityBuilderPropertyGrid",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Builder Property Grid",
+                                            "ID": "VelocityBuilderPropertyGrid"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Builder Property Grid"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Builder Property Grid",
+                        "BuilderComponents.ObjectName": "VelocityBuilderPropertyGrid"
+                   },
+                   "rowIndex": 44
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "7e48f309-2809-4b7d-a96b-c43dcf058bdf",
+                   "uniqueRowUUID": "7e48f309-2809-4b7d-a96b-c43dcf058bdf",
+                   "versionUuid": "76aae42f-5133-4f87-a408-819340eceff7",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "76aae42f-5133-4f87-a408-819340eceff7",
+                                  "uuid": "7e48f309-2809-4b7d-a96b-c43dcf058bdf",
+                                  "name": "Velocity - Layout Container",
+                                  "id": "VelocityLayoutContainer",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Layout Container",
+                                            "ID": "VelocityLayoutContainer"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Layout Container"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Layout Container",
+                        "BuilderComponents.ObjectName": "VelocityLayoutContainer"
+                   },
+                   "rowIndex": 45
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "32c5cc34-5339-4ea7-81c1-c48fdd337935",
+                   "uniqueRowUUID": "32c5cc34-5339-4ea7-81c1-c48fdd337935",
+                   "versionUuid": "f1ad4c62-4628-4b3c-a2b0-c29190cf0ef7",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "f1ad4c62-4628-4b3c-a2b0-c29190cf0ef7",
+                                  "uuid": "32c5cc34-5339-4ea7-81c1-c48fdd337935",
+                                  "name": "Velocity - Survey",
+                                  "id": "VelocitySurvey",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Survey",
+                                            "ID": "VelocitySurvey"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Survey"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Survey",
+                        "BuilderComponents.ObjectName": "VelocitySurvey"
+                   },
+                   "rowIndex": 46
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "30d4190a-e33b-43c6-bdaa-c4da47061914",
+                   "uniqueRowUUID": "30d4190a-e33b-43c6-bdaa-c4da47061914",
+                   "versionUuid": "cd131030-4164-4472-8aac-db25eefd7991",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "cd131030-4164-4472-8aac-db25eefd7991",
+                                  "uuid": "30d4190a-e33b-43c6-bdaa-c4da47061914",
+                                  "name": "Velocity - Data Sources",
+                                  "id": "VelocityDataSources",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Data Sources",
+                                            "ID": "VelocityDataSources"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Data Sources"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Data Sources",
+                        "BuilderComponents.ObjectName": "VelocityDataSources"
+                   },
+                   "rowIndex": 47
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "a9763194-c2bd-429e-bf3b-cd2b76396ea4",
+                   "uniqueRowUUID": "a9763194-c2bd-429e-bf3b-cd2b76396ea4",
+                   "versionUuid": "9ecc1568-7765-438b-9b44-ab69f7261ba3",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "9ecc1568-7765-438b-9b44-ab69f7261ba3",
+                                  "uuid": "a9763194-c2bd-429e-bf3b-cd2b76396ea4",
+                                  "name": "Research Metrics - ODP Document Embed",
+                                  "id": "ResearchMetricsODPDocumentEmbed",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - ODP Document Embed",
+                                            "ID": "ResearchMetricsODPDocumentEmbed"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - ODP Document Embed"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - ODP Document Embed",
+                        "BuilderComponents.ObjectName": "ResearchMetricsODPDocumentEmbed"
+                   },
+                   "rowIndex": 48
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "b9fc23c1-796f-4625-b550-ce19c0ba067b",
+                   "uniqueRowUUID": "b9fc23c1-796f-4625-b550-ce19c0ba067b",
+                   "versionUuid": "cc3647cf-72e9-413c-9678-dd6843bb549a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "cc3647cf-72e9-413c-9678-dd6843bb549a",
+                                  "uuid": "b9fc23c1-796f-4625-b550-ce19c0ba067b",
+                                  "name": "Velocity - Layout",
+                                  "id": "VelocityLayout",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Layout",
+                                            "ID": "VelocityLayout"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Layout"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Layout",
+                        "BuilderComponents.ObjectName": "VelocityLayout"
+                   },
+                   "rowIndex": 49
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "f13820a4-d1a5-4bcb-b09d-d051d7f10baa",
+                   "uniqueRowUUID": "f13820a4-d1a5-4bcb-b09d-d051d7f10baa",
+                   "versionUuid": "1dd92d93-2e49-49ac-aa9c-5d68f7cdad3a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "1dd92d93-2e49-49ac-aa9c-5d68f7cdad3a",
+                                  "uuid": "f13820a4-d1a5-4bcb-b09d-d051d7f10baa",
+                                  "name": "Velocity - Custom HTML",
+                                  "id": "VelocityCustomHTML",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Custom HTML",
+                                            "ID": "VelocityCustomHTML"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Custom HTML"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Custom HTML",
+                        "BuilderComponents.ObjectName": "VelocityCustomHTML"
+                   },
+                   "rowIndex": 50
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "6a442c27-7ad1-4edd-b6fd-d1f79d593592",
+                   "uniqueRowUUID": "6a442c27-7ad1-4edd-b6fd-d1f79d593592",
+                   "versionUuid": "45ab8858-b512-493c-96da-98fcd7655944",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "45ab8858-b512-493c-96da-98fcd7655944",
+                                  "uuid": "6a442c27-7ad1-4edd-b6fd-d1f79d593592",
+                                  "name": "Research Metrics - Data Query",
+                                  "id": "ResearchMetricsDataQuery",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Research Metrics - Data Query",
+                                            "ID": "ResearchMetricsDataQuery"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Research Metrics - Data Query"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Research Metrics - Data Query",
+                        "BuilderComponents.ObjectName": "ResearchMetricsDataQuery"
+                   },
+                   "rowIndex": 51
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "34c88124-ef2e-42b7-9b7c-d3dd2d0fdba3",
+                   "uniqueRowUUID": "34c88124-ef2e-42b7-9b7c-d3dd2d0fdba3",
+                   "versionUuid": "579d3687-6b3b-4125-9c5a-b868bcd6d39a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "579d3687-6b3b-4125-9c5a-b868bcd6d39a",
+                                  "uuid": "34c88124-ef2e-42b7-9b7c-d3dd2d0fdba3",
+                                  "name": "Velocity - Basic Layout",
+                                  "id": "VelocityBasicLayout",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Basic Layout",
+                                            "ID": "VelocityBasicLayout"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Basic Layout"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Basic Layout",
+                        "BuilderComponents.ObjectName": "VelocityBasicLayout"
+                   },
+                   "rowIndex": 52
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "ff9b2a51-e091-4825-b01f-d7d3d7ae125b",
+                   "uniqueRowUUID": "ff9b2a51-e091-4825-b01f-d7d3d7ae125b",
+                   "versionUuid": "ad7a9a9f-fc86-466a-8295-c0a43cd87e11",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "ad7a9a9f-fc86-466a-8295-c0a43cd87e11",
+                                  "uuid": "ff9b2a51-e091-4825-b01f-d7d3d7ae125b",
+                                  "name": "Velocity - Create Record",
+                                  "id": "VelocityCreateRecord",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Create Record",
+                                            "ID": "VelocityCreateRecord"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Create Record"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Create Record",
+                        "BuilderComponents.ObjectName": "VelocityCreateRecord"
+                   },
+                   "rowIndex": 53
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "28f8cae4-8006-419b-8a2e-e252e1a1f378",
+                   "uniqueRowUUID": "28f8cae4-8006-419b-8a2e-e252e1a1f378",
+                   "versionUuid": "6e264c5d-9a1c-4ac6-a99f-cd4cce412367",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "6e264c5d-9a1c-4ac6-a99f-cd4cce412367",
+                                  "uuid": "28f8cae4-8006-419b-8a2e-e252e1a1f378",
+                                  "name": "Velocity - Builder Snippet Preset",
+                                  "id": "VelocityBuilderSnippetPreset",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Builder Snippet Preset",
+                                            "ID": "VelocityBuilderSnippetPreset"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Builder Snippet Preset"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Builder Snippet Preset",
+                        "BuilderComponents.ObjectName": "VelocityBuilderSnippetPreset"
+                   },
+                   "rowIndex": 54
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "9a695c82-5ffb-42f8-b2ab-ea0de9f8817b",
+                   "uniqueRowUUID": "9a695c82-5ffb-42f8-b2ab-ea0de9f8817b",
+                   "versionUuid": "23eea697-659d-45ca-b476-4fafa90959c1",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "23eea697-659d-45ca-b476-4fafa90959c1",
+                                  "uuid": "9a695c82-5ffb-42f8-b2ab-ea0de9f8817b",
+                                  "name": "Velocity - Data Variable",
+                                  "id": "VelocityDataVariable",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Data Variable",
+                                            "ID": "VelocityDataVariable"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Data Variable"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Data Variable",
+                        "BuilderComponents.ObjectName": "VelocityDataVariable"
+                   },
+                   "rowIndex": 55
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "99bfdb42-94aa-47f0-8a90-ea2667b21593",
+                   "uniqueRowUUID": "99bfdb42-94aa-47f0-8a90-ea2667b21593",
+                   "versionUuid": "f00ef820-2f03-4d17-8b7f-b0ba515738f1",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "f00ef820-2f03-4d17-8b7f-b0ba515738f1",
+                                  "uuid": "99bfdb42-94aa-47f0-8a90-ea2667b21593",
+                                  "name": "Velocity - Activity",
+                                  "id": "VelocityActivity",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Activity",
+                                            "ID": "VelocityActivity"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Activity"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Activity",
+                        "BuilderComponents.ObjectName": "VelocityActivity"
+                   },
+                   "rowIndex": 56
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "15769404-a0fa-4423-aa3d-eb1102b36ca8",
+                   "uniqueRowUUID": "15769404-a0fa-4423-aa3d-eb1102b36ca8",
+                   "versionUuid": "caf50f38-53c1-4996-b19d-204feb429343",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "caf50f38-53c1-4996-b19d-204feb429343",
+                                  "uuid": "15769404-a0fa-4423-aa3d-eb1102b36ca8",
+                                  "name": "Velocity - Controller Container",
+                                  "id": "VelocityControllerContainer",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Controller Container",
+                                            "ID": "VelocityControllerContainer"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Controller Container"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Controller Container",
+                        "BuilderComponents.ObjectName": "VelocityControllerContainer"
+                   },
+                   "rowIndex": 57
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "3667a19e-ed1b-42de-ac12-ed544a628fcf",
+                   "uniqueRowUUID": "3667a19e-ed1b-42de-ac12-ed544a628fcf",
+                   "versionUuid": "1d510646-3d6f-4545-9739-6cc601d6da43",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "1d510646-3d6f-4545-9739-6cc601d6da43",
+                                  "uuid": "3667a19e-ed1b-42de-ac12-ed544a628fcf",
+                                  "name": "Bryntum - Calendar",
+                                  "id": "BryntumCalendar",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Bryntum - Calendar",
+                                            "ID": "BryntumCalendar"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Bryntum - Calendar"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Bryntum - Calendar",
+                        "BuilderComponents.ObjectName": "BryntumCalendar"
+                   },
+                   "rowIndex": 58
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "6341772d-f6ab-494f-a82d-ed9be357a980",
+                   "uniqueRowUUID": "6341772d-f6ab-494f-a82d-ed9be357a980",
+                   "versionUuid": "c958a0ca-7e38-40f4-87e0-7bd765a03c52",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "c958a0ca-7e38-40f4-87e0-7bd765a03c52",
+                                  "uuid": "6341772d-f6ab-494f-a82d-ed9be357a980",
+                                  "name": "Velocity - Section",
+                                  "id": "VelocitySection",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Section",
+                                            "ID": "VelocitySection"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Section"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Section",
+                        "BuilderComponents.ObjectName": "VelocitySection"
+                   },
+                   "rowIndex": 59
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "84600cf3-d525-4c8b-b520-eeb31b543ecc",
+                   "uniqueRowUUID": "84600cf3-d525-4c8b-b520-eeb31b543ecc",
+                   "versionUuid": "fb36fce6-65f4-44b1-8433-fc4fd6a8a708",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "fb36fce6-65f4-44b1-8433-fc4fd6a8a708",
+                                  "uuid": "84600cf3-d525-4c8b-b520-eeb31b543ecc",
+                                  "name": "Velocity - Question",
+                                  "id": "VelocityQuestion",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Question",
+                                            "ID": "VelocityQuestion"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Question"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Question",
+                        "BuilderComponents.ObjectName": "VelocityQuestion"
+                   },
+                   "rowIndex": 60
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "2a1a4605-270c-4952-84e1-ef73afdab67d",
+                   "uniqueRowUUID": "2a1a4605-270c-4952-84e1-ef73afdab67d",
+                   "versionUuid": "a130e3bb-4ccd-4fa0-b122-3b18ca1f4456",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "a130e3bb-4ccd-4fa0-b122-3b18ca1f4456",
+                                  "uuid": "2a1a4605-270c-4952-84e1-ef73afdab67d",
+                                  "name": "Velocity - Decision",
+                                  "id": "VelocityDecision",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Decision",
+                                            "ID": "VelocityDecision"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Decision"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Decision",
+                        "BuilderComponents.ObjectName": "VelocityDecision"
+                   },
+                   "rowIndex": 61
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "6550c43a-8932-4c0f-ba22-efb2a1f11c36",
+                   "uniqueRowUUID": "6550c43a-8932-4c0f-ba22-efb2a1f11c36",
+                   "versionUuid": "c5e6f291-2075-41a5-aaf1-acb7fe7646bf",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "c5e6f291-2075-41a5-aaf1-acb7fe7646bf",
+                                  "uuid": "6550c43a-8932-4c0f-ba22-efb2a1f11c36",
+                                  "name": "Resaerch Metrics - Dataset Rowset",
+                                  "id": "ResaerchMetricsDatasetRowset",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Resaerch Metrics - Dataset Rowset",
+                                            "ID": "ResaerchMetricsDatasetRowset"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Resaerch Metrics - Dataset Rowset"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Resaerch Metrics - Dataset Rowset",
+                        "BuilderComponents.ObjectName": "ResaerchMetricsDatasetRowset"
+                   },
+                   "rowIndex": 62
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "d1bf1449-083f-4675-827d-f2dd40c1fc03",
+                   "uniqueRowUUID": "d1bf1449-083f-4675-827d-f2dd40c1fc03",
+                   "versionUuid": "3337e7f6-a549-4700-804c-7e096625d03a",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "3337e7f6-a549-4700-804c-7e096625d03a",
+                                  "uuid": "d1bf1449-083f-4675-827d-f2dd40c1fc03",
+                                  "name": "Velocity - Controller",
+                                  "id": "VelocityController",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Controller",
+                                            "ID": "VelocityController"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Controller"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Controller",
+                        "BuilderComponents.ObjectName": "VelocityController"
+                   },
+                   "rowIndex": 63
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "8d3e8b76-86d9-44af-a362-f528826cb64d",
+                   "uniqueRowUUID": "8d3e8b76-86d9-44af-a362-f528826cb64d",
+                   "versionUuid": "fef76782-b759-46f3-8ffa-8c431b8aeccf",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "fef76782-b759-46f3-8ffa-8c431b8aeccf",
+                                  "uuid": "8d3e8b76-86d9-44af-a362-f528826cb64d",
+                                  "name": "Velocity - Delete Record",
+                                  "id": "VelocityDeleteRecord",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Delete Record",
+                                            "ID": "VelocityDeleteRecord"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Delete Record"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Delete Record",
+                        "BuilderComponents.ObjectName": "VelocityDeleteRecord"
+                   },
+                   "rowIndex": 64
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "2cd6fdd5-9dc6-4511-8dea-f7373ce13d27",
+                   "uniqueRowUUID": "2cd6fdd5-9dc6-4511-8dea-f7373ce13d27",
+                   "versionUuid": "600b75ca-d2b5-4c69-8299-faa854571a13",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "600b75ca-d2b5-4c69-8299-faa854571a13",
+                                  "uuid": "2cd6fdd5-9dc6-4511-8dea-f7373ce13d27",
+                                  "name": "Velocity - Navigation V2",
+                                  "id": "VelocityNavigationV2",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Navigation V2",
+                                            "ID": "VelocityNavigationV2"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Navigation V2"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Navigation V2",
+                        "BuilderComponents.ObjectName": "VelocityNavigationV2"
+                   },
+                   "rowIndex": 65
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "077de079-fb2a-4f3f-b7f8-f77aa411f8bf",
+                   "uniqueRowUUID": "077de079-fb2a-4f3f-b7f8-f77aa411f8bf",
+                   "versionUuid": "6eb8e769-9f87-4b89-92fb-2c3192e4ec6d",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "6eb8e769-9f87-4b89-92fb-2c3192e4ec6d",
+                                  "uuid": "077de079-fb2a-4f3f-b7f8-f77aa411f8bf",
+                                  "name": "Velocity - Grid",
+                                  "id": "VelocityGrid",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Grid",
+                                            "ID": "VelocityGrid"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Grid"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Grid",
+                        "BuilderComponents.ObjectName": "VelocityGrid"
+                   },
+                   "rowIndex": 66
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "72309c93-923a-4624-a9cf-fa26b05a817a",
+                   "uniqueRowUUID": "72309c93-923a-4624-a9cf-fa26b05a817a",
+                   "versionUuid": "a6a735e5-caf1-41fa-b0fb-828a7efc24b9",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "a6a735e5-caf1-41fa-b0fb-828a7efc24b9",
+                                  "uuid": "72309c93-923a-4624-a9cf-fa26b05a817a",
+                                  "name": "Velocity - Popper",
+                                  "id": "VelocityPopper",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Popper",
+                                            "ID": "VelocityPopper"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Popper"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Popper",
+                        "BuilderComponents.ObjectName": "VelocityPopper"
+                   },
+                   "rowIndex": 67
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "14482b55-3b07-451e-b172-fd1d20f0047a",
+                   "uniqueRowUUID": "14482b55-3b07-451e-b172-fd1d20f0047a",
+                   "versionUuid": "ea934ad3-c081-4f95-9a97-e867443ed732",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "ea934ad3-c081-4f95-9a97-e867443ed732",
+                                  "uuid": "14482b55-3b07-451e-b172-fd1d20f0047a",
+                                  "name": "Velocity - Branding",
+                                  "id": "VelocityBranding",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Branding",
+                                            "ID": "VelocityBranding"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Branding"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Branding",
+                        "BuilderComponents.ObjectName": "VelocityBranding"
+                   },
+                   "rowIndex": 68
+              },
+              {
+                   "isSelected": false,
+                   "isFiltered": false,
+                   "uuid": "e0158569-7c85-4b97-8615-fe637a283908",
+                   "uniqueRowUUID": "e0158569-7c85-4b97-8615-fe637a283908",
+                   "versionUuid": "5b1e0026-fc42-46b0-8eda-74eafea22db8",
+                   "fields": {
+                        "BuilderComponents.BuilderComponent": [
+                             {
+                                  "relatedObjectName": "BuilderComponents",
+                                  "entityUuid": "0bf7a0b1-d6f9-4b17-8574-3259bd68a833",
+                                  "versionUuid": "5b1e0026-fc42-46b0-8eda-74eafea22db8",
+                                  "uuid": "e0158569-7c85-4b97-8615-fe637a283908",
+                                  "name": "Velocity - Applet",
+                                  "id": "VelocityApplet",
+                                  "interfaceData": {
+                                       "RecordEssentials": {
+                                            "Name": "Velocity - Applet",
+                                            "ID": "VelocityApplet"
+                                       },
+                                       "InterfaceCDNConformingRecords": {
+                                            "Name": "Velocity - Applet"
+                                       }
+                                  }
+                             }
+                        ],
+                        "BuilderComponents.Name": "Velocity - Applet",
+                        "BuilderComponents.ObjectName": "VelocityApplet"
+                   },
+                   "rowIndex": 69
+              }
+         ]
+    }
+}
